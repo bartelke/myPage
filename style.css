@@ -23,6 +23,9 @@
     font-size: 18px;
     text-align: center;
 }
+#textBox{
+    margin-left: 10px;
+}
 
 
 /*headers:*/
@@ -70,14 +73,14 @@ h3{
     height: auto;
     float:right;
     border-radius: 30px;
-    margin-left: 10px;
+    margin: 10px;
     transition: all 1.2s;
 }
 #ZugPhoto:hover{
     transform: scale(1.05);
 }
 #abtBuffer{
-    height: 1.8em;
+    height: 2.2em;
 }
 #icon:hover{
     transform: scale(1.2);
