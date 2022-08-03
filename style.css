@@ -1,0 +1,29 @@
+#indexBody, html { 
+    background: url(photos/nordwood-themes-kRNZiGKtz48-unsplash.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.buffer{
+    height: 200px;
+}
+.container{
+    text-align: center;
+}
+.header{
+    color: gray;
+    font-size: 4em;
+}
+#name{
+    color: grey;
+    font-size: 1.5em;
+}
+hr{
+    margin-left: 10px;
+}
+#indexMenu{
+    padding: 3am;
+    size: 3am;
+}
