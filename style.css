@@ -5,6 +5,9 @@
     -o-background-size: cover;
     background-size: cover;
   }
+  h4{
+    color: gray;
+  }
 /*boxes:*/
 .container{
     text-align: center;
@@ -25,13 +28,43 @@
     text-align: center;
 }
 #textBox{
-    margin-left: 10px;
+    margin: 1em;
 }
 .row{
     height: 100vh;
 }
 
+.CVcontainer{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 0px;
+}
+.greyBox{
+    background-color: rgb(21, 21, 21);
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+.whiteBox{
+    text-align: center;
+    font-size: 18px;
+}
+.goldenBox{
+    background-color: gold;
+    height: 1vh;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+#grey{
+    color: gray;
+}
+
+
 /*headers:*/
+#mail{
+    color: gray;
+    font-size: 14px;
+}
 #headerIndex{
     color: gray;
     font-size: 4em;
@@ -48,6 +81,7 @@
 }
 hr{
     margin-left: 20px;
+    margin-right: 20px;
 }
 h3{
     text-align: center;
@@ -71,6 +105,16 @@ h3{
     color:limegreen;
 }
 
+#abtBuffer{
+    height: 1.8em;
+}
+#icon:hover{
+    transform: scale(1.2);
+    box-shadow: 4px 4px 5px #888888;
+    border-radius: 16px;
+}
+
+/*photos: */
 #ZugPhoto{
     width:300px;
     height: auto;
@@ -82,11 +126,33 @@ h3{
 #ZugPhoto:hover{
     transform: scale(1.05);
 }
-#abtBuffer{
-    height: 2.2em;
+#zdjCV{
+    width: 150px;
+    height: 265px;
+    border-radius: 25px;
+    align: center;
 }
-#icon:hover{
-    transform: scale(1.2);
-    box-shadow: 4px 4px 5px #888888;
-    border-radius: 16px;
+@media only screen and (min-width:800px){
+    #zdjCV{
+        width:200px;
+        height: 353px;
+    }
+}
+
+@media only screen and (max-width:800px){
+    #ZugPhoto{
+        width:150px;
+    }
+}
+h1{
+    height: 1em;
+}
+ul{
+    text-decoration: none;
+}
+
+
+#working{
+    margin: 4em;
+    text-align: center;
 }

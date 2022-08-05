@@ -5,11 +5,15 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="style.css"> 
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  /> 
     </head>
     <body>
         <div id="top">
-            <div id="header"><p>My CV</p></div>
+            <div id="header"><p class="animate__animated animate__bounceInDown">My CV</p></div>
             <!--<div id="name white"><p>Bartosz Kloc, Poland</p></div>-->
             <div id="menu">
                 <a href="index.html"><button type="button" class="btn btn-dark">HOME</button></a>
@@ -19,7 +23,44 @@
             </div>
         </div>
 
-    <h1>Still writting...</h1>
+        <!--Content:-->
+    <div class="CVcontainer">
+        <div class="greyBox">
+            <hr>
+            <img src="photos/zdjCV.png" id="zdjCV"><hr>
+            <p id="textBox">I am an IT student trying to widen my knowledge, develop my skills and get some experience.  At this moment I am studying JavaScript with React try myself in web dev, especially on front-end because this is where my love for coding started: with writing simple website in HTML as a child, twelve years ago in primary school.</p>
+            <h4 id="textBox"> LANGUAGES:</h4>
+                <p id="textBox">Polish (Native)</p>
+                <p id="textBox">English (B2)</p>
+                <p id="textBox">Japanese (N5/N4)</p>
+                <p id="textBox">Russian (A1/A2)</p>
+        </div>
+
+        <div class="whiteBox">
+            <p><h1>BARTOSZ KLOC</h1></p>
+            <p id="mail">my mail: 2cbarklo@gmail.com</p>
+            <div class="goldenBox"></div>
+            <p><h3> KNOWLEDGE:</h3>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>Java</p>
+                <p>C++</p>
+                <p>SQL (especially in MySQL and Oracle)</p>
+                <p>knowledge of computer networks (finished CCNAv7 course)</p>
+                <p>knowledge of using Linux</p>
+            </p>
+            <hr>
+            <p id="grey"><h3> EDUCATION:</h3>
+                <p><h4>WROCŁAW UNIVERSITY OF SCIENCE AND TECHNOLOGY (2020-TODAY)</h4></p>
+                <p>Field of study: Computer Science, second year, 4th semester</p>
+                <p><h4>LO in strzelin (2017 – 2020)</h4></p>
+                <p>Math class, passed Matura Exam with math, English and IT on extended level in 2020</p>
+            </p>
+            
+        </div>
+    </div>
+    <hr>
+
     <!--LINKI:-->
     <div class="linkContainer">
         <p><h3>You can find me:</h3></p>
