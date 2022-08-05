@@ -6,12 +6,13 @@
     background-size: cover;
   }
 /*boxes:*/
-.buffer{
-    height: 200px;
-}
 .container{
     text-align: center;
     margin-left: 10px;
+    position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 #top{
     text-align: center;
@@ -26,8 +27,9 @@
 #textBox{
     margin-left: 10px;
 }
-
-
+.row{
+    height: 100vh;
+}
 /*headers:*/
 #headerIndex{
     color: gray;
