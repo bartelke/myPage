@@ -17,6 +17,25 @@
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+.HobbyContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+}
+.HobbyCover{
+    padding: 2em;
+    color: black;
+}
+.Zugspitze{
+    background-color: #47B5FF;
+}
+.Sniezka{
+    background-color: #1363DF;
+}
+.Koscielec{
+    background-color: #06283D;
+}
 #top{
     text-align: center;
 }
@@ -59,6 +78,21 @@
     color: gray;
 }
 
+#HobbyPhoto{
+    width: 250px;
+    height: 250px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border-radius: 15px;
+}
+.MtHeadder{
+    font-size: 20px;
+    padding: 0.5em;
+    font-family: 'Kalam', cursive;
+}
+
 
 /*headers:*/
 #mail{
@@ -72,7 +106,7 @@
 #header{
     color: white;
     font-size: 3em;
-    background-color:#9fa9a3;
+    background-color:#100F0F;
     padding: 0.005em;
 }
 #name{
@@ -98,11 +132,11 @@ h3{
     color:antiquewhite;
 }
 #menu{
-    background-color:limegreen;
+    background-color:#0F3D3E;
     box-shadow: 4px 4px 5px #888888;
 }
 .btn-outline-light:hover{
-    color:limegreen;
+    color:#0F3D3E;
 }
 
 #abtBuffer{
