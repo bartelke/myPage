@@ -35,6 +35,7 @@
 }
 .Koscielec{
     background-color: #06283D;
+    color: white;
 }
 #top{
     text-align: center;
@@ -90,7 +91,6 @@
 .MtHeadder{
     font-size: 20px;
     padding: 0.5em;
-    font-family: 'Kalam', cursive;
 }
 
 
